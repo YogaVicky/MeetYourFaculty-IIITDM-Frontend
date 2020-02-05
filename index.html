@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif,monospace;
+        
+      }
+      h1,h3{
+        font-family:'Bangers', cursive;
+        text-shadow: 3px 4px #ffc400;
+      }
+    p{
+        font-family: 'Permanent Marker', cursive;
+      }
+
+      .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+      }
+
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+
+     
+
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+
+      .flip-card-back {
+        background-color: #ffc400;
+        color: rgb(15, 9, 9);
+        transform: rotateY(180deg);
+      }
+
+   
+      .text
+      {
+        z-index: 1;
+        transform: translate(50px,-200px);
+        font-family: 'Permanent Marker', cursive;
+
+      }
+     
+    
+    </style>
+    <script src="https://kit.fontawesome.com/04f5813efb.js" crossorigin="anonymous"></script>
+  </head>
+  <body
+    style="background-image: url(b.jpg); background-size: cover;"
+  >
+    <h1 style="text-align: center;color: antiquewhite;font-size:6em;margin-bottom: 5%;">The Team</h1>
+    <!--<h3 style="text-align: center;color: antiquewhite;">
+      Who Made This Possible
+    </h3>-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="content/images/ja.jpg"
+                  alt="Avatar"
+                  style="width:300px;height:300px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>YOGA SRI VARSHAN V</h1>
+                <p1>I LOVE ENGLISH CRICKET </p1><br>
+                <p2><br>
+                  Full Stack Dev | Machine Learning Enthusiast | Competitive
+                  Programmer| Algorihtmist | Entrepreneur
+                </p2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          
+            <img
+            src="content/images/sp.png"
+            alt="bubs"
+            style="width:800px;height:300px;"
+          />
+          
+          <div class="text" >
+           <p style="color:rgb(0, 0, 0) ;">
+              yoo!!! me myself and I YOGA! , (no need to introduce myself i guess)
+          </p>
+          
+          <hr>
+          <a href="https://www.instagram.com/im_yoga_2001/" target="_blank"><i class="fab fa-instagram" style="size: 300%;color:fuchsia;margin-right:60px;"></i></a>
+          
+          <a href="https://www.linkedin.com/in/yoga-sri-varshan-v-154274168/" target="_blank"><i class="fab fa-linkedin" style="size: 300%;color:blue;margin-right:60px;"></i></a>
+          <a href="https://github.com/YogaVicky" target="_blank"><i class="fab fa-github" style="size: 300%;color:black;margin-right:60px;"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="content/images/jh.jpg"
+                  alt="Avatar"
+                  style="width:300px;height:300px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>JOHN ZAKKAM</h1>
+
+                <p2><br>Competitive Programmer and front-end Developer</p2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          
+          <img
+          src="content/images/sp.png"
+          alt="bubs"
+          style="width:800px;height:300px;"
+        />
+        
+        <div class="text" >
+         <p style="color:rgb(0, 0, 0) ;">
+         KIM JON HERE . READY TO SEND A NUKE TO YOUR FACE!!!
+        </p>
+        
+        <hr>
+            <a href="https://www.instagram.com/johnzakkam/" target="_blank"><i class="fab fa-instagram" style="size: 300%;color:fuchsia;margin-right:60px;"></i></a>
+            <a href="https://www.linkedin.com/in/johnzakkam/" target="_blank"><i class="fab fa-linkedin" style="size: 300%;color:blue;margin-right:60px;"></i></a>
+            <a href="https://github.com/imjohnzakkam" target="_blank"><i class="fab fa-github" style="size: 300%;color:black;margin-right:60px;"></i></a>
+
+          </p>
+        </img>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="content/images/ok.png"
+                  alt="Avatar"
+                  style="width:300px;height:300px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>PALETI KRISHNASAI</h1>
+                <p1><strong> BADMINTON,SKETCHING,DIVING,<br>
+                   SWIMMING,SOCCER,BIOPHILE</strong></p1><br>
+                <p2><br>Web Developer | Learning Enthusiast | 3D Modelling | Digital Sketching | Animation & VFX | Sculpting |  </p2>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          
+          <img
+          src="content/images/sp.png"
+          alt="bubs"
+          style="width:800px;height:300px;"
+        />
+        
+        <div class="text" >
+         <p style="color:rgb(0, 0, 0) ;">
+         You know who i am ;) kidding i'm a nobody trying to be a better me.
+         <br>
+         
+        </p>
+        
+        <hr>
+            <a href="https://www.instagram.com/paleti_krishnasai/" target="_blank"><i class="fab fa-instagram" style="size: 300%;color:fuchsia;margin-right:60px;"></i></a>
+            <a href="https://www.linkedin.com/in/paleti-krishnasai-0b096b179/" target="_blank"><i class="fab fa-linkedin" style="size: 300%;;color:blue;margin-right:60px;"></i></a>    
+            <a href="https://github.com/PaletiKrishnasai" target="_blank"><i class="fab fa-github" style="size: 300%;color:black;margin-right:60px;"></i></a>  
+  
+            </div>
+            
+          </>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="content/images/dvss.jpg"
+                  alt="Avatar"
+                  style="width:300px;height:300px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>DARSHAN VSS</h1>
+
+                <p1><strong>LOVE USELESS STUFF</strong></p1>
+                <p2><br> Web Developer and Incremental Thinker.</p2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          
+          <img
+          src="content/images/sp.png"
+          alt="bubs"
+          style="width:800px;height:300px;"
+        />
+        
+        <div class="text" >
+         <p style="color:rgb(0, 0, 0) ;">
+         HEllo THere!! , Cuber I Am , Gamer Am I ??
+        </p>
+        
+       
+            <hr>
+            <a href="https://www.instagram.com/d_v.s.s/" target="_blank"><i class="fab fa-instagram" style="size: 300%;color:fuchsia;margin-right:60px;"></i></a>
+            <a href="https://www.linkedin.com/in/darshan-v-596853192/" target="_blank"><i class="fab fa-linkedin" style="size: 300%;color:blue;margin-right:60px;"></i></a>
+            <a href="https://github.com/dvss77" target="_blank"><i class="fab fa-github" style="size: 300%;color:black;margin-right:60px;"></i></a>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="content/images/rakesh.jpg"
+                  alt="Avatar"
+                  style="width:300px;height:300px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>RAKESH SUVVARI</h1>
+                <p1><strong>
+                   Web Developer and Qualitative Analyst</strong></p1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          
+          <img
+          src="content/images/sp.png"
+          alt="bubs"
+          style="width:800px;height:300px;"
+        />
+        
+        <div class="text" >
+         <p style="color:rgb(0, 0, 0) ;">
+         IM ME!
+        </p>
+        
+            <hr>
+            <a href="https://www.instagram.com/rakesh_suvvari_007/" target="_blank"><i class="fab fa-instagram" style="size: 300%;color:fuchsia;margin-right:60px;"></i></a>
+            <a href="https://www.linkedin.com/in/rakesh-suvvari-8786a7182/" target="_blank"><i class="fab fa-linkedin" style="size: 300%;color:blue;margin-right:60px;"></i></a>
+            <a href="https://github.com/RakeshSuvvari" target="_blank"><i class="fab fa-github" style="size: 300%;color:black;margin-right:60px;"></i></a>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    
+  </body>
+</html>
