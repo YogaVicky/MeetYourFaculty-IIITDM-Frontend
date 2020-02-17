@@ -3,7 +3,6 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -38,9 +37,6 @@
         transform-style: preserve-3d;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       }
-
-     
-
       .flip-card:hover .flip-card-inner {
         transform: rotateY(180deg);
       }
@@ -56,6 +52,9 @@
       .flip-card-front {
         background-color: #bbb;
         color: black;
+
+        border-color:black;
+        border: 20px;
       }
 
       .flip-card-back {
@@ -72,18 +71,15 @@
         font-family: 'Permanent Marker', cursive;
 
       }
-     
-    
     </style>
     <script src="https://kit.fontawesome.com/04f5813efb.js" crossorigin="anonymous"></script>
   </head>
-  <body
-    style="background-image: url(b.jpg); background-size: cover;"
-  >
+  <body style="background-image: url(b.jpg); background-size: cover;">
     <h1 style="text-align: center;color: antiquewhite;font-size:6em;margin-bottom: 5%;">The Team</h1>
     <!--<h3 style="text-align: center;color: antiquewhite;">
       Who Made This Possible
     </h3>-->
+
 
     <div class="container">
       <div class="row">
@@ -93,9 +89,10 @@
               <div class="flip-card-front">
                 <img
                   src="content/images/y.jpg"
-                  alt="Avatar"
-                  style="width:300px;height:300px;"
-                />
+                  alt="Avatar"style="width: 300px;
+                  height: 300px;
+                  box-shadow: 5px -5px  #ffc400;"
+               />
               </div>
               <div class="flip-card-back">
                 <h1>YOGA SRI VARSHAN V</h1>
@@ -118,7 +115,7 @@
             <img
             src="content/images/sp.png"
             alt="bubs"
-            style="width:800px;height:300px;"
+            style="width:800px;height:300px";
           />
           
           <div class="text" >
@@ -147,14 +144,16 @@
               <div class="flip-card-front">
                 <img
                   src="content/images/jh.jpg"
-                  alt="Avatar"
-                  style="width:300px;height:300px;"
+                  alt="Avatar"style="width: 300px;
+                  height: 300px;
+                  box-shadow: 5px -5px  #ffc400;"
+               
                 />
               </div>
               <div class="flip-card-back">
                 <h1>JOHN ZAKKAM</h1>
-
-                <p2><br><strong>COMPETITIVE PROGRAMMER and FRONT-END DEVELOPER</strong></p2><br>
+                <p>CED18I059</p>
+                <p2><br><strong>Cricket,Badminton,Swimming.</strong></p2><br>
                 <p2><br>
                   Full Stack Dev | Machine Learning Enthusiast | Competitive
                   Programmer| Algorihtmist | Entrepreneur
@@ -174,12 +173,12 @@
           <img
           src="content/images/sp.png"
           alt="bubs"
-          style="width:800px;height:300px;"
+          style="width:800px;height:300px";
         />
         
         <div class="text" >
          <p style="color:rgb(0, 0, 0) ;">
-         KIM JON HERE . READY TO SEND A NUKE TO YOUR FACE!!!
+         I am John Zakkam, second year undergrad IIITDM intrested in CompSci stuff.
         </p>
         
         <hr>
@@ -204,8 +203,10 @@
               <div class="flip-card-front">
                 <img
                   src="content/images/pk.jpeg"
-                  alt="Avatar"
-                  style="width:300px;height:300px;"
+                  alt="Avatar"style="width: 300px;
+                  height: 300px;
+                  box-shadow: 5px -5px  #ffc400;"
+               
                 />
               </div>
               <div class="flip-card-back">
@@ -228,7 +229,7 @@
           <img
           src="content/images/sp.png"
           alt="bubs"
-          style="width:800px;height:300px;"
+          style="width:800px ;height:300px";
         />
         
         <div class="text" >
@@ -264,7 +265,10 @@
                 <img
                   src="content/images/dvss.jpg"
                   alt="Avatar"
-                  style="width:300px;height:300px;"
+                  style="width: 300px;
+                  height: 300px;
+                  box-shadow: 5px -5px  #ffc400;"
+               
                 />
               </div>
               <div class="flip-card-back">
@@ -286,7 +290,7 @@
           <img
           src="content/images/sp.png"
           alt="bubs"
-          style="width:800px;height:300px;"
+          style="width:800px ;height:300px";
         />
         
         <div class="text" >
@@ -317,7 +321,9 @@
                 <img
                   src="content/images/rakesh.jpg"
                   alt="Avatar"
-                  style="width:300px;height:300px;"
+                  style="width: 300px;
+                  height: 300px;
+                  box-shadow: 5px -5px  #ffc400;"
                 />
               </div>
               <div class="flip-card-back">
@@ -339,12 +345,12 @@
           <img
           src="content/images/sp.png"
           alt="bubs"
-          style="width:800px;height:300px;"
+          style="width:800px ;height:300px ";
         />
         
         <div class="text" >
          <p style="color:rgb(0, 0, 0) ;">
-         IM ME!
+         This is Rakesh, nature lover,enjoying life and studies.
         </p>
         
             <hr>
@@ -361,4 +367,5 @@
     <br />
     
   </body>
+  <script src="three.js"></script>
 </html>
