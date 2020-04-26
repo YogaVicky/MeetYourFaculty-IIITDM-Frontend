@@ -1,8 +1,9 @@
-/*--Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
- --*/
+
+table,th,td {
+  border: 1px solid grey;
+  background-color: #fff;
+  font-family: "Ubuntu",sans-serif;
+}
 
 body {
   margin: 0;
