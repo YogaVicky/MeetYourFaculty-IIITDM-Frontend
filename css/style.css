@@ -5,6 +5,18 @@ table,th,td {
   font-family: "Ubuntu",sans-serif;
 }
 
+.form {
+  padding: 10% 10% 10% 10%;
+}
+
+.bookslot {
+  color: red;
+}
+
+.bookslot-g {
+  color: green;
+}
+
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
