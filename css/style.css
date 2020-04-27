@@ -15,8 +15,18 @@ th,td {
   padding: 10% 10% 10% 10%;
 }
 
-.bookslot {
-  color: red;
+.button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.button1 {
+    background-color: green;
+}
+
+.button2 {
+  background-color: red;
 }
 
 .bookslot-g {
