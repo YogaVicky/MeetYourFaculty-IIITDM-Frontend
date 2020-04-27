@@ -1,8 +1,14 @@
 
-table,th,td {
-  border: 1px solid grey;
+th,td {
+  font-size: 13px;
+  justify-content: center;
+  border: 0.1px solid grey;
   background-color: #fff;
   font-family: "Ubuntu",sans-serif;
+}
+
+.table {
+  justify-content: center;
 }
 
 .form {
