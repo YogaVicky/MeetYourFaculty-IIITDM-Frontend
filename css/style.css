@@ -34,6 +34,13 @@ th,td {
 
 .table {
   justify-content: center;
+  color: white;
+}
+
+.mtable {
+  color: white;
+  border: white;
+  border-width: 1px;
 }
 
 .form {
