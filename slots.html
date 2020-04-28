@@ -30,6 +30,7 @@
       media="all"
     />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="js/modal.js" type="text/js" rel="stylesheet" media="all" />
     <!-- font-awesome icons -->
     <link href="css/fontawesome-all.min.css" rel="stylesheet" />
     <!-- //Custom Theme files -->
@@ -129,7 +130,13 @@
             <td>class</td>    
             <td>class</td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button class="button button1" id="myBtn">B</button></td>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>hi</p>
+              </div>
+            </div>
             <td>Free</td>    
             <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
             <td>Free</td>    
@@ -325,6 +332,22 @@
         });
       });
     </script>
+<script>
+  var modal = document.getElementById("myModal");
+  var btn = document.getElementById("myBtn");
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
     <script src="js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
