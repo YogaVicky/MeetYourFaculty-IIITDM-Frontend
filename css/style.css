@@ -17,6 +17,13 @@
      .mobileHide { display: none;}
   }
 
+.name_slot {
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 1%;
+}
+
+
 th,td {
   font-size: 13px;
   justify-content: center;
