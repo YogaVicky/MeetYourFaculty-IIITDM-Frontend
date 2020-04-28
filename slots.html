@@ -128,17 +128,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <td>class</td>    
             <td>class</td>
             <td>Free</td>    
-            <td><button class="button button1" id="myBtn">B</button></td>
-            <div id="myModal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>hi</p>
-              </div>
-            </div>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
           </tr>
         </div>
         <div>
@@ -147,11 +141,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <td>class</td>    
             <td>class</td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
           </tr>
         </div>
         <div>
@@ -160,11 +154,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <td>class</td>    
             <td>class</td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
           </tr>
         </div>
         <div>
@@ -173,11 +167,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <td>class</td>    
             <td>class</td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
           </tr>
         </div>
         <div>
@@ -186,11 +180,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <td>class</td>    
             <td>class</td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
             <td>Free</td>    
-            <td><button class="button button1" onclick="alert('Slot is already taken')">B</button></td>
+            <td><button type="button" class="button button1" data-toggle="modal" data-target="#myModal">B</button></td>
           </tr>
         </div>
       </table>
@@ -198,6 +192,26 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
   </div>
 </div>
 <!--table end-->
+
+<!--Modal Start-->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button style="float: right;" type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>This is a large modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--Modal End-->
 
     <!-- //contact -->
     <div class="text-sm-left text-center" style="background-color: black;">
@@ -298,7 +312,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <!-- start-smooth-scrolling -->
     <script src="js/move-top.js"></script>
     <script src="js/easing.js"></script>
-    <script>
+    <!-- <script>
       jQuery(document).ready(function($) {
         $(".scroll").click(function(event) {
           event.preventDefault();
@@ -311,7 +325,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
           );
         });
       });
-    </script>
+    </script> -->
     <!-- //end-smooth-scrolling -->
     <!-- smooth-scrolling-of-move-up -->
     <script>
@@ -347,11 +361,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
   }
 </script>
     <script src="js/SmoothScroll.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modal.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <!-- <script src="js/modal.js"></script> -->
   </body>
 </html>
