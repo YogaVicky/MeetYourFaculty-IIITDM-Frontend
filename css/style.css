@@ -34,7 +34,6 @@ th,td {
 
 .table {
   justify-content: center;
-  color: white;
 }
 
 .mtable {
@@ -109,8 +108,8 @@ body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
   background: #fff;
-}
-
+} 
+ 
 body a,
 .slider-info a {
   transition: 0.5s all;
