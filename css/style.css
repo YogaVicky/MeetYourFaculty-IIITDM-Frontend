@@ -1,6 +1,15 @@
 
 .mobileShow { display: none;}
 
+/* scrollbar-color: #0092ff #15181a; */
+/* 
+.nav-item {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 36, 36);
+  background-image: none;
+  box-shadow: rgb(22, 196, 236) 0px 20px 5px -10px;
+} */
+
 /* Smartphone Portrait and Landscape */
 @media only screen
   and (min-device-width : 320px)
@@ -240,10 +249,14 @@ a.navbar-brand i {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #000000;
-  background: #fff;
+  /* color: #000000; */
+  /* background: rgb(73, 131, 255); white */
   border-radius: 5px;
-  box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 20px 5px -10px rgba(34, 91, 247, 0.897); white */
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 36, 36);
+  background-image: none;
+  box-shadow: rgb(22, 196, 236) 0px 20px 5px -10px;
   transform: translateY(5px);
   transform: translateY(5px);
   -ms-transform: translateY(5px);
