@@ -102,7 +102,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%; // Ensure `.modal-content` extends the full width of the parent `.modal-dialog`
+  width: 70%; // Ensure `.modal-content` extends the full width of the parent `.modal-dialog`
   // counteract the pointer-events: none; in the .modal-dialog
   color: $modal-content-color;
   pointer-events: auto;
@@ -214,7 +214,7 @@
     @include box-shadow($modal-content-box-shadow-sm-up);
   }
 
-  .modal-sm { max-width: $modal-sm; }
+  .modal-sm { max-width: 100px; }
 }
 
 @include media-breakpoint-up(lg) {
