@@ -38,6 +38,21 @@
       href="//fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!--timeline css-->
+    <!-- <link rel="stylesheet" href="css/timeline.css"> -->
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <!-- //online-fonts -->
   </head>
 
@@ -108,7 +123,7 @@
       <div class="container">
         <!-- banner-text -->
         <div class="banner-text">
-          <p style="padding: 1% 2% -5% 2%;">
+          <p style="padding: 1% 2% -5% 2%; color: white;">
             A Faculty Student meetup application<br />
             the web application will consist of the profiles and timetables of
             the faculty of CSE department<br />
@@ -291,7 +306,7 @@
           </div>
           <div class="col-lg-3 col-md-4 footer-end-grid mt-md-0 mt-sm-5">
             <a href="webteam.html" target="blank" ><strong> Meet the Web Team</strong> </a>
-            <button class="open-button" onclick="openForm()">Faculty Login </button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Faculty Login</button>
           </div>
           </div>
         </div>
@@ -328,23 +343,97 @@
         </div>
       </div>
     <!-- //footer -->
-    <div class="form-popup" id="myForm">
-      <form action="/action_page.php" class="form-container">
-        <h1>Login</h1>
+    <footer class="footer_part">
+      <div class="container">
+          <a href="#home" > <img src="img/footer_img.png" alt="footer_logo" style="height: 60px;"> </a>
+          <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                  
+                  <div class="single_footer_part">
+                      <h4>About Us</h4>
+                      <p> We organise contests on a monthly basis to encourage the coding culture on campus.
+                      </p>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                  <div class="single_footer_part">
+                      <h4>Contact Info</h4>
+                      <p>Address : IIITDM Kancheepuram, Chennai - 600127.</p>
+                      <ul class="list-unstyled">
+                          <li>Phone : <a href="tel-+91-9381545322" target="blank">+91-9381545322</a></li>
+                          <li>Email : <a href="mailto:csclub@iiitdm.com" target="blank">csclub@iiitdm.ac.in</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                  <div class="single_footer_part">
+                      <h4>Previous Contests </h4>
+                      <ul class="list-unstyled">
+                          <li><a href="https://www.codechef.com/FTST2020/" target="blank"> February Contest</a></li>
+                          <li><a href="https://www.codechef.com/CHPTRS01/" target="blank">Campus Chapters 1.0</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                  <div class="single_footer_part">
+                      <h4>Discuss Blog</h4>
+                      <p>Checkout the Editorials on the Codechef Discuss Blogs, which are updated periodically.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="copyright_text">
+                      <P>
+                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved IIITDM Kancheepuram Codechef Local Chapter ™  made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/johnzakkam/" target="_blank">John</a>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="footer_icon social_icon">
+                      <ul class="list-unstyled">
+                          <li><a href="https://www.facebook.com/groups/456862367730973/" target="blank" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="https://www.instagram.com/cs.club.iiitdm/" target="blank" class="single_social_icon"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="csclub.ml" target="blank" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
     
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
-    
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-    
-        <button type="submit" class="btn">Login</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-      </form>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content rounded-0">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Faculty Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><span class="icon-close2"></span></span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div>
+        <div class="bg-light p-4 mb-4">
+          <div class="form-group">
+            <label for="name" class="ml-2" style="color: black;">Faculty Name</label>
+            <input type="text" class="form-control m-1 form-pill" placeholder="Name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="password" class="ml-2" style="color: black;">Password</label>
+            <input type="password" class="form-control m-1 form-pill" placeholder="Password" id="password">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            <input class="btn btn-default" type="submit" value="Submit" data-dismiss="modal" onclick="submit()"> 
+          </div>
+        </div>
+      </div>  
+      </div>
     </div>
+  </div>
+</div>
 
-
-    
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
@@ -402,10 +491,39 @@
       });
     </script>
     <script src="js/SmoothScroll.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/form.js"></script>
+    <!-- jquery plugins here-->
+<!-- jquery -->
+<script src="js/jquery-1.12.1.min.js"></script>
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- easing js -->
+<script src="js/jquery.magnific-popup.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.min.js"></script>
+<!-- swiper js -->
+<script src="js/masonry.pkgd.js"></script>
+<!-- particles js -->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<!-- slick js -->
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
   </body>
 </html>
