@@ -290,8 +290,9 @@
             </ul> 
           </div>
           <div class="col-lg-3 col-md-4 footer-end-grid mt-md-0 mt-sm-5">
-              <a href="webteam.html" target="blank" ><strong> Meet the Web Team</strong> </a>
-            </div>
+            <a href="webteam.html" target="blank" ><strong> Meet the Web Team</strong> </a>
+            <button class="open-button" onclick="openForm()">Faculty Login </button>
+          </div>
           </div>
         </div>
         <div class="d-flex justify-content-between pt-lg-5 footer-bottom-cpy text-center">
@@ -327,6 +328,23 @@
         </div>
       </div>
     <!-- //footer -->
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+
+    
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
